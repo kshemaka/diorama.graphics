@@ -30,11 +30,11 @@ onBeforeUnmount(() => {
 })
 
 function onKeyDown(event) {
-    diorama.setAction(event.key, true)
+    diorama.triggerAction(event.key, true)
 }
 
 function onKeyUp(event) {
-    diorama.setAction(event.key, false)
+    diorama.triggerAction(event.key, false)
 }
 </script>
 
